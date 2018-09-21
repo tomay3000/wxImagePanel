@@ -37,7 +37,7 @@ void wxImagePanel::Init()
     //Connect(wxEVT_SIZE, wxSizeEventHandler(wxImagePanel::OnSize), NULL, this);
     Bind(wxEVT_SIZE, &wxImagePanel::OnSize, this);
 
-    // flicker-free drawing requires this
+    // Flicker-free drawing requires this
     SetBackgroundStyle(wxBG_STYLE_PAINT);
 }
 
