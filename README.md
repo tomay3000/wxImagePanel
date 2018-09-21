@@ -49,7 +49,7 @@ of an application using the library even in the case of static linking.
 Building
 --------
 
-Code::Blocks project is provided to build it.
+TODO!
 
 
 Further information
